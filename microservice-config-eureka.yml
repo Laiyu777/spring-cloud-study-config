@@ -33,7 +33,7 @@ eureka:
     service-url:
       defaultZone: http://eureka6001.com:6001/eureka # 如果是单机版，写自己的，如果是集群，写对方的
   server:
-    enable-self-preservation: false
+    enable-self-preservation: true
 spring:
   profiles: prod
   application: 
